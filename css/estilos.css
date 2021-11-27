@@ -1,0 +1,155 @@
+
+
+.contenedorPadre {
+  display: grid;
+grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 100px 1fr 100px;  }
+
+header { grid-area: header; }
+main { grid-area: main; }
+footer {grid-area: footer;}
+
+.border{
+  border: 1px solid black;
+}
+.flex {
+  display: flex;
+}
+.libros {
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.flex-justify {
+  justify-content: flex-end;
+  padding-left: 15px;
+}
+  
+  
+.flex-around {
+  justify-content: space-around;
+}
+.flex-end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+p {
+flex-direction: column;
+justify-content: center;
+padding-top: 40px;
+padding-left: 120px;
+padding-right: 20px;
+font-size: 20px;
+}
+ul {
+  padding-bottom: 15px;
+}
+.logo1 {
+  padding-top: 20px;
+}
+
+.nav {
+  justify-content: center;
+align-content: center;
+margin-bottom: 20px;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;}
+  nav {
+    width: 100%;
+  }
+
+}
+
+
+
+.contenedorPadreNosotros {
+  display: grid;
+grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 100px 1fr 100px;
+       }
+       .border {
+  border: 1px solid black;
+}
+
+header { grid-area: header; }
+main { grid-area: main; }
+
+footer {grid-area: footer;}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+.contenedorPadre }
+  display: grid;
+grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr 1fr;  
+       }
+
+header { grid-area: header;
+background-color: yellow; }
+main { grid-area: main; }
+footer {
+  grid-area: footer;
+  background-color: blue;
+}
+.flex {
+  display: flex;
+}
+.libros {
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.flex-justify {
+  justify-content: flex-end;
+  padding-left: 15px;
+}
+  
+  }
+.flex-around {
+  justify-content: space-around;
+}
+.flex-end {
+  justify-content: flex-end;
+  align-items: flex-end;}
+.texto {
+  font-size: 30px;}
+.border {
+  border: 1px dashed blue;
+}
+
+}
