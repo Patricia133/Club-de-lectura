@@ -13,7 +13,7 @@ header { grid-area: header; }
 main { grid-area: main; }
 footer {grid-area: footer;}
 
-.border{
+.border1{
   border: 1px solid black;
 }
 .flex {
@@ -139,7 +139,7 @@ li {
   padding-left: 15px;
 }
   
-  }
+  
 .flex-around {
   justify-content: space-around;
 }
